@@ -1,0 +1,84 @@
+<circuit type="simulide_0.1" noLinStep="10" speed="1000000" noLinAcc="5" reactStep="50" animate="0">
+ 
+Node-29: 
+<item x="52" hflip="1" vflip="1" objectName="Node-29" labelrot="0" Show_id="false" id="Node-29" labely="-24" itemtype="Node" valLabRot="0" y="-356" valLabely="0" labelx="-16" rotation="0" valLabelx="0"/>
+ 
+Seven Segment-16: 
+<item y="-140" CommonCathode="true" labely="-44" Resistance="1" Vertical_Pins="false" MaxCurrent="0.02" objectName="Seven Segment-16" valLabelx="0" itemtype="Seven Segment" vflip="1" rotation="0" Color="0" labelrot="0" id="Seven Segment-16" x="-36" valLabely="0" hflip="1" Threshold="2.4" Show_id="false" valLabRot="0" NumDisplays="1" labelx="20"/>
+ 
+Node-13: 
+<item x="76" hflip="1" vflip="1" objectName="Node-13" labelrot="0" Show_id="false" id="Node-13" labely="-24" itemtype="Node" valLabRot="0" y="-356" valLabely="0" labelx="-16" rotation="0" valLabelx="0"/>
+ 
+Node-10: 
+<item x="100" hflip="1" vflip="1" objectName="Node-10" labelrot="0" Show_id="false" id="Node-10" labely="-24" itemtype="Node" valLabRot="0" y="-356" valLabely="0" labelx="-16" rotation="0" valLabelx="0"/>
+ 
+Led-4: 
+<item y="-316" labely="-24" Resistance="0.6" MaxCurrent="0.03" objectName="Led-4" valLabelx="0" itemtype="Led" vflip="1" rotation="-90" Color="1" labelrot="0" id="Led-4" x="100" valLabely="0" hflip="1" Threshold="2.4" Show_id="false" Grounded="false" valLabRot="0" labelx="-16"/>
+ 
+Led-3: 
+<item y="-316" labely="-24" Resistance="0.6" MaxCurrent="0.03" objectName="Led-3" valLabelx="0" itemtype="Led" vflip="1" rotation="-90" Color="0" labelrot="0" id="Led-3" x="76" valLabely="0" hflip="1" Threshold="2.4" Show_id="false" Grounded="false" valLabRot="0" labelx="-16"/>
+ 
+Led-2: 
+<item y="-316" labely="-24" Resistance="0.6" MaxCurrent="0.03" objectName="Led-2" valLabelx="0" itemtype="Led" vflip="1" rotation="-90" Color="2" labelrot="0" id="Led-2" x="52" valLabely="0" hflip="1" Threshold="2.4" Show_id="false" Grounded="false" valLabRot="0" labelx="-16"/>
+ 
+Arduino Uno-1: 
+<item y="-140" labely="-21" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" objectName="Arduino Uno-1" valLabelx="0" itemtype="Arduino" Ser_Port="false" vflip="1" rotation="0" Program="TA1.hex" labelrot="0" id="Arduino Uno-1" x="116" valLabely="0" hflip="1" Ser_Monitor="false" Logic_Symbol="false" Mhz="16" Show_id="true" valLabRot="0" labelx="100"/>
+ 
+Connector-5: 
+<item y="-116" endpinid="Led-4-lPin" pointList="124,-116,100,-116,100,-300" labely="-24" objectName="Connector-5" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-5" startpinid="Arduino Uno-1-PD1" x="124" valLabely="0" hflip="1" enodeid="enode-5" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-6: 
+<item y="-108" endpinid="Led-3-lPin" pointList="124,-108,76,-108,76,-300" labely="-24" objectName="Connector-6" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-6" startpinid="Arduino Uno-1-PD2" x="124" valLabely="0" hflip="1" enodeid="enode-6" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-7: 
+<item y="-100" endpinid="Led-2-lPin" pointList="124,-100,52,-100,52,-300" labely="-24" objectName="Connector-7" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-7" startpinid="Arduino Uno-1-PD3" x="124" valLabely="0" hflip="1" enodeid="enode-7" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-8: 
+<item y="-332" endpinid="Node-10-0" pointList="100,-332,100,-356" labely="-24" objectName="Connector-8" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-8" startpinid="Led-4-rPin" x="100" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-9: 
+<item y="-332" endpinid="Node-13-0" pointList="76,-332,76,-356" labely="-24" objectName="Connector-9" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-9" startpinid="Led-3-rPin" x="76" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-11: 
+<item y="-356" endpinid="Arduino Uno-1-GND1" pointList="100,-356,324,-356,324,-60,268,-60" labely="-24" objectName="Connector-11" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-11" startpinid="Node-10-2" x="100" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-12: 
+<item y="-332" endpinid="Node-29-0" pointList="52,-332,52,-356" labely="-24" objectName="Connector-12" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-12" startpinid="Led-2-rPin" x="52" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-14: 
+<item y="-356" endpinid="Node-10-1" pointList="76,-356,100,-356" labely="-24" objectName="Connector-14" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-14" startpinid="Node-13-2" x="76" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-18: 
+<item y="-92" endpinid="Seven Segment-16-pin_g" pointList="124,-92,-60,-92,-60,-116" labely="-24" objectName="Connector-18" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-18" startpinid="Arduino Uno-1-PD4" x="124" valLabely="0" hflip="1" enodeid="enode-18" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-19: 
+<item y="-84" endpinid="Seven Segment-16-pin_f" pointList="124,-84,-68,-84,-68,-124,-60,-124" labely="-24" objectName="Connector-19" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-19" startpinid="Arduino Uno-1-PD5" x="124" valLabely="0" hflip="1" enodeid="enode-19" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-20: 
+<item y="-76" endpinid="Seven Segment-16-pin_e" pointList="124,-76,-76,-76,-76,-132,-60,-132" labely="-24" objectName="Connector-20" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-20" startpinid="Arduino Uno-1-PD6" x="124" valLabely="0" hflip="1" enodeid="enode-20" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-21: 
+<item y="-68" endpinid="Seven Segment-16-pin_d" pointList="124,-68,-84,-68,-84,-140,-60,-140" labely="-24" objectName="Connector-21" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-21" startpinid="Arduino Uno-1-PD7" x="124" valLabely="0" hflip="1" enodeid="enode-21" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-22: 
+<item y="-52" endpinid="Seven Segment-16-pin_c" pointList="124,-52,-92,-52,-92,-148,-60,-148" labely="-24" objectName="Connector-22" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-22" startpinid="Arduino Uno-1-PB0" x="124" valLabely="0" hflip="1" enodeid="enode-22" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-23: 
+<item y="-44" endpinid="Seven Segment-16-pin_b" pointList="124,-44,-100,-44,-100,-156,-60,-156" labely="-24" objectName="Connector-23" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-23" startpinid="Arduino Uno-1-PB1" x="124" valLabely="0" hflip="1" enodeid="enode-23" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-24: 
+<item y="-36" endpinid="Seven Segment-16-pin_a" pointList="124,-36,-108,-36,-108,-164,-60,-164" labely="-24" objectName="Connector-24" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-24" startpinid="Arduino Uno-1-PB2" x="124" valLabely="0" hflip="1" enodeid="enode-24" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-28: 
+<item y="-108" endpinid="Node-29-1" pointList="-28,-108,28,-108,28,-356,52,-356" labely="-24" objectName="Connector-28" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-28" startpinid="Seven Segment-16-pin_commona" x="-28" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+Connector-30: 
+<item y="-356" endpinid="Node-13-1" pointList="52,-356,76,-356" labely="-24" objectName="Connector-30" valLabelx="0" itemtype="Connector" vflip="1" rotation="0" labelrot="0" id="Connector-30" startpinid="Node-29-2" x="52" valLabely="0" hflip="1" enodeid="enode-28" Show_id="false" valLabRot="0" labelx="-16"/>
+ 
+PlotterWidget: 
+<item minimumHeight="200" maximized="false" normalGeometry="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" whatsThis="" accessibleName="" acceptDrops="false" inputMethodHints="0" sizePolicy="" contextMenuPolicy="1" focus="false" rect="" locale="" minimized="false" geometry="" focusPolicy="0" itemtype="Plotter" size="" minimumSize="" childrenRect="" windowModality="0" fullScreen="false" sizeHint="" enabled="true" windowFilePath="" updatesEnabled="true" palette="" baseSize="" windowIcon="" accessibleDescription="" layoutDirection="0" windowIconText="" windowModified="false" sizeIncrement="" modal="false" Scale="1" childrenRegion="" pos="" y="0" height="200" frameGeometry="" cursor="" mouseTracking="false" visible="false" frameSize="" windowTitle="" windowOpacity="1" statusTip="" maximumHeight="200" width="200" toolTip="" x="0" styleSheet="" minimumWidth="200" Tracks="1" objectName="PlotterWidget" isActiveWindow="true" tabletTracking="false" MaxVolt="500" MinVolt="-500" toolTipDuration="-1" autoFillBackground="false" minimumSizeHint="" maximumWidth="1000" maximumSize=""/>
+ 
+SerialPortWidget: 
+<item minimumHeight="0" maximized="false" normalGeometry="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" whatsThis="" accessibleName="" acceptDrops="false" inputMethodHints="0" sizePolicy="" contextMenuPolicy="1" focus="false" SettingsProp=",0,3,0,0,0" rect="" locale="" minimized="false" geometry="" focusPolicy="0" itemtype="SerialPort" size="" minimumSize="" childrenRect="" windowModality="0" fullScreen="false" sizeHint="" enabled="true" windowFilePath="" updatesEnabled="true" palette="" baseSize="" windowIcon="" accessibleDescription="" layoutDirection="0" windowIconText="" windowModified="false" sizeIncrement="" modal="false" childrenRegion="" pos="" y="0" height="141" frameGeometry="" cursor="" mouseTracking="false" visible="false" frameSize="" windowTitle="Settings" windowOpacity="1" statusTip="" maximumHeight="170" width="313" toolTip="" x="0" styleSheet="" minimumWidth="0" objectName="SerialPortWidget" isActiveWindow="true" tabletTracking="false" toolTipDuration="-1" autoFillBackground="false" minimumSizeHint="" maximumWidth="450" maximumSize=""/>
+ 
+</circuit>
