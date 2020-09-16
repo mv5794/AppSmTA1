@@ -16,32 +16,28 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(verde, HIGH); 
-delay(1000);  
-delay(1000);   
-delay(1000); 
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
-delay(1000);   
- 
-  digitalWrite(amarillo, HIGH); 
-  digitalWrite(rojo, HIGH); 
-  digitalWrite(a, HIGH); 
-  digitalWrite(g, HIGH);                   
-  digitalWrite(LED_BUILTIN, LOW);  
-                      
+	digitalWrite(rojo, HIGH);
+	digitalWrite(amarillo, LOW); 
+	for (int i = 1; i<= 7; i++) {
+		pintarNumero(i);
+		delay(1000);
+	}
+	digitalWrite(amarillo, HIGH);      
+	for (int i = 1; i<= 2; i++) {
+		pintarNumero(i);
+		delay(1000);
+	}
+	digitalWrite(rojo, LOW);
+	digitalWrite(amarillo, LOW);  
+	digitalWrite(verde, HIGH);
+	for (int i = 1; i<= 8; i++) {
+		pintarNumero(i);
+		delay(1000);
+	}              
+	digitalWrite(amarillo, HIGH); 
+	digitalWrite(verde, LOW);
+	for (int i = 1; i<= 3; i++) {
+		pintarNumero(i);
+		delay(1000);
+	}   
 }
